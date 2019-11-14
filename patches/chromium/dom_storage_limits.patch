@@ -44,10 +44,10 @@ index 6c0b831ebaaa2c1749bbc7436ce1025656588310..b67767751cadc6072c133297c7a6cdcc
  
  // In the browser process we allow some overage to
 diff --git a/third_party/blink/renderer/modules/storage/cached_storage_area.cc b/third_party/blink/renderer/modules/storage/cached_storage_area.cc
-index d91fdc2a7d52307126bc04d44167edadb8c743a8..630acfca527aaec44742d45e47ce29d7754e3385 100644
+index 1d3bf044043bfa3617495d922b7245c8076b787f..69a29a1a4d2b3eba561fa224018015b2f6d2eb98 100644
 --- a/third_party/blink/renderer/modules/storage/cached_storage_area.cc
 +++ b/third_party/blink/renderer/modules/storage/cached_storage_area.cc
-@@ -107,11 +107,13 @@ bool CachedStorageArea::SetItem(const String& key,
+@@ -111,11 +111,13 @@ bool CachedStorageArea::SetItem(const String& key,
                                  Source* source) {
    DCHECK(areas_->Contains(source));
  
@@ -55,7 +55,7 @@ index d91fdc2a7d52307126bc04d44167edadb8c743a8..630acfca527aaec44742d45e47ce29d7
    // A quick check to reject obviously overbudget items to avoid priming the
    // cache.
    if ((key.length() + value.length()) * 2 >
-       mojom::blink::StorageArea::kPerStorageAreaQuota)
+       storage::mojom::blink::DomStorageArea::kPerStorageAreaQuota)
      return false;
 +#endif
  
