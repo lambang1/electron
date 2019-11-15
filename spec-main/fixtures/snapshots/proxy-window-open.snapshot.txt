@@ -1,0 +1,124 @@
+[
+  [
+    {
+      "sender": "[WebContents]",
+      "frameId": 1
+    },
+    "about:blank",
+    "frame name",
+    "new-window",
+    {
+      "top": "5",
+      "left": "10",
+      "resizable": false,
+      "x": 10,
+      "y": 5,
+      "title": "frame name",
+      "width": 800,
+      "height": 600,
+      "webPreferences": {
+        "nodeIntegration": false,
+        "webviewTag": false,
+        "nodeIntegrationInSubFrames": false,
+        "openerId": 1
+      },
+      "show": false
+    },
+    [],
+    {
+      "url": "",
+      "policy": "default"
+    },
+    null
+  ],
+  [
+    {
+      "sender": "[WebContents]",
+      "frameId": 1
+    },
+    "about:blank",
+    "frame name",
+    "new-window",
+    {
+      "webPreferences": {
+        "zoomFactor": "2",
+        "nodeIntegration": false,
+        "webviewTag": false,
+        "nodeIntegrationInSubFrames": false,
+        "openerId": 3
+      },
+      "resizable": false,
+      "x": null,
+      "y": 10,
+      "title": "frame name",
+      "width": 800,
+      "height": 600,
+      "show": false
+    },
+    [],
+    {
+      "url": "",
+      "policy": "default"
+    },
+    null
+  ],
+  [
+    {
+      "sender": "[WebContents]",
+      "frameId": 1
+    },
+    "about:blank",
+    "frame name",
+    "new-window",
+    {
+      "backgroundColor": "gray",
+      "x": 100,
+      "y": 100,
+      "title": "frame name",
+      "width": 800,
+      "height": 600,
+      "webPreferences": {
+        "nodeIntegration": false,
+        "webviewTag": false,
+        "nodeIntegrationInSubFrames": false,
+        "openerId": 4
+      },
+      "show": false
+    },
+    [],
+    {
+      "url": "",
+      "policy": "default"
+    },
+    null
+  ],
+  [
+    {
+      "sender": "[WebContents]",
+      "frameId": 1
+    },
+    "about:blank",
+    "frame name",
+    "new-window",
+    {
+      "x": 50,
+      "y": 20,
+      "title": "sup",
+      "width": 800,
+      "height": 600,
+      "webPreferences": {
+        "nodeIntegration": false,
+        "webviewTag": false,
+        "nodeIntegrationInSubFrames": false,
+        "openerId": 5
+      },
+      "show": false
+    },
+    [],
+    {
+      "url": "",
+      "policy": "default"
+    },
+    null
+  ]
+]

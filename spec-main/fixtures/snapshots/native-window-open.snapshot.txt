@@ -1,0 +1,147 @@
+[
+  [
+    {
+      "sender": "[WebContents]",
+      "returnValue": 2
+    },
+    "about:blank",
+    "frame name",
+    "new-window",
+    {
+      "show": true,
+      "width": 800,
+      "height": 600,
+      "webContents": "[WebContents]",
+      "top": "5",
+      "left": "10",
+      "resizable": false,
+      "x": 10,
+      "y": 5,
+      "title": "frame name",
+      "webPreferences": {
+        "nativeWindowOpen": true,
+        "sandbox": true,
+        "backgroundColor": "blue",
+        "nodeIntegration": false,
+        "webviewTag": false,
+        "nodeIntegrationInSubFrames": false,
+        "openerId": 1
+      },
+      "backgroundColor": "blue",
+      "focusable": false
+    },
+    [],
+    {
+      "url": "",
+      "policy": "no-referrer-when-downgrade"
+    },
+    null
+  ],
+  [
+    {
+      "sender": "[WebContents]",
+      "returnValue": 2
+    },
+    "about:blank",
+    "frame name",
+    "new-window",
+    {
+      "show": true,
+      "width": 800,
+      "height": 600,
+      "webContents": "[WebContents]",
+      "webPreferences": {
+        "zoomFactor": "2",
+        "nativeWindowOpen": true,
+        "sandbox": true,
+        "backgroundColor": "blue",
+        "nodeIntegration": false,
+        "webviewTag": false,
+        "nodeIntegrationInSubFrames": false,
+        "openerId": 3
+      },
+      "resizable": false,
+      "x": null,
+      "y": 10,
+      "title": "frame name",
+      "backgroundColor": "blue",
+      "focusable": false
+    },
+    [],
+    {
+      "url": "",
+      "policy": "no-referrer-when-downgrade"
+    },
+    null
+  ],
+  [
+    {
+      "sender": "[WebContents]",
+      "returnValue": 2
+    },
+    "about:blank",
+    "frame name",
+    "new-window",
+    {
+      "show": true,
+      "width": 800,
+      "height": 600,
+      "webContents": "[WebContents]",
+      "backgroundColor": "gray",
+      "x": 100,
+      "y": 100,
+      "title": "frame name",
+      "webPreferences": {
+        "nativeWindowOpen": true,
+        "sandbox": true,
+        "backgroundColor": "blue",
+        "nodeIntegration": false,
+        "webviewTag": false,
+        "nodeIntegrationInSubFrames": false,
+        "openerId": 5
+      },
+      "focusable": false
+    },
+    [],
+    {
+      "url": "",
+      "policy": "no-referrer-when-downgrade"
+    },
+    null
+  ],
+  [
+    {
+      "sender": "[WebContents]",
+      "returnValue": 2
+    },
+    "about:blank",
+    "frame name",
+    "new-window",
+    {
+      "show": true,
+      "width": 800,
+      "height": 600,
+      "webContents": "[WebContents]",
+      "x": 50,
+      "y": 20,
+      "title": "sup",
+      "webPreferences": {
+        "nativeWindowOpen": true,
+        "sandbox": true,
+        "backgroundColor": "blue",
+        "nodeIntegration": false,
+        "webviewTag": false,
+        "nodeIntegrationInSubFrames": false,
+        "openerId": 7
+      },
+      "backgroundColor": "blue",
+      "focusable": false
+    },
+    [],
+    {
+      "url": "",
+      "policy": "no-referrer-when-downgrade"
+    },
+    null
+  ]
+]
